@@ -6,7 +6,7 @@ using System.Security.Permissions;
 using mRemoteNC.App;
 
 
-[assembly: SecurityPermissionAttribute(SecurityAction.RequestMinimum, UnmanagedCode = true), PermissionSetAttribute(SecurityAction.RequestMinimum, Name = "FullTrust")]
+//[assembly: SecurityPermissionAttribute(SecurityAction.RequestMinimum, UnmanagedCode = true), PermissionSetAttribute(SecurityAction.RequestMinimum, Name = "FullTrust")]
 
 namespace mRemoteNC
 {

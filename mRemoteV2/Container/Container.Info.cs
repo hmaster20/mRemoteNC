@@ -93,7 +93,8 @@ namespace mRemoteNC
 
             public void SetDefaults()
             {
-                if (IsExpanded == null)
+                //if (IsExpanded == null)
+                if (!IsExpanded)
                 {
                     this.IsExpanded = true;
                 }

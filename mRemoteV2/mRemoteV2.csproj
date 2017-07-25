@@ -23,7 +23,7 @@
     <OptionStrict>Off</OptionStrict>
     <ManifestCertificateThumbprint>B249710A6BB08171F8E75082CF2355AE2890911A</ManifestCertificateThumbprint>
     <ManifestKeyFile>mRemoteV1_TemporaryKey.pfx</ManifestKeyFile>
-    <GenerateManifests>true</GenerateManifests>
+    <GenerateManifests>false</GenerateManifests>
     <SignManifests>false</SignManifests>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>
@@ -95,6 +95,10 @@
     <DefineConstants>DEBUG;PORTABLE</DefineConstants>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <WarningLevel>3</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ADTree, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -117,6 +121,10 @@
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
       <HintPath>..\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.EOLWTSCOM">
+      <HintPath>References\Interop.EOLWTSCOM.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="Interop.SHDocVw">
       <HintPath>References\Interop.SHDocVw.dll</HintPath>
@@ -1050,15 +1058,6 @@
       <WrapperTool>aximp</WrapperTool>
       <Isolated>False</Isolated>
     </COMReference>
-    <COMReference Include="EOLWTSCOM">
-      <Guid>{96C3FA7A-3211-4D93-BFEA-4589DA4ABDE2}</Guid>
-      <VersionMajor>1</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>tlbimp</WrapperTool>
-      <Isolated>False</Isolated>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </COMReference>
     <COMReference Include="MSTSCLib">
       <Guid>{8C11EFA1-92C3-11D1-BC1E-00C04FA31489}</Guid>
       <VersionMajor>1</VersionMajor>
@@ -1068,9 +1067,6 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.

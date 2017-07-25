@@ -14,7 +14,7 @@ namespace mRemoteNC
         #region Private Variables
 
         private WebClient webClient = WebClientHelper.GetWebClient();
-        private WebProxy webProxy;
+        //private WebProxy webProxy;
 
         #endregion Private Variables
 

@@ -87,8 +87,7 @@ namespace mRemoteNC.Tools
             try
             {
                 string pPath = Settings.Default.UseCustomPuttyPath == false
-                               ? (new Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase()).Info.
-                                         DirectoryPath + "\\putty.exe"
+                               ? Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "putty.exe")
                                : Settings.Default.CustomPuttyPath;
 
                 return File.Exists(pPath);
@@ -133,25 +132,19 @@ namespace mRemoteNC.Tools
         {
             try
             {
-                bool GeckoBad = Settings.Default.XULRunnerPath == "";
+                bool GeckoBad = false;
 
-                if (Directory.Exists(Settings.Default.XULRunnerPath))
+                if (!(Settings.Default.XULRunnerPath == "") && ((File.Exists(Path.Combine(Settings.Default.XULRunnerPath, "xpcom.dll")))))
                 {
-                    if (File.Exists(Path.Combine(Settings.Default.XULRunnerPath, "xpcom.dll")) == false)
-                    {
-                        GeckoBad = true;
-                    }
-                    else
-                    {
-                        XulVer = FileVersionInfo.GetVersionInfo(Path.Combine(Settings.Default.XULRunnerPath, "xpcom.dll")).FileVersion;
-                    }
-                }
-                else
-                {
+                    XulVer = FileVersionInfo.GetVersionInfo(Path.Combine(Settings.Default.XULRunnerPath, "xpcom.dll")).FileVersion;
                     GeckoBad = true;
                 }
-
-                return GeckoBad == false;
+                else if (File.Exists(Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "xpcom.dll")))
+                {
+                    XulVer = FileVersionInfo.GetVersionInfo(Path.Combine(Settings.Default.XULRunnerPath, "xpcom.dll")).FileVersion;
+                    GeckoBad = true;
+                }
+                return GeckoBad;
             }
             catch (Exception)
             {

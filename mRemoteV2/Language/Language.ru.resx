@@ -281,7 +281,7 @@
     <value>Успешно проверено!</value>
   </data>
   <data name="strCcEOLFailed" xml:space="preserve">
-    <value>Для (RDP) сессий должна быть зарегистрирована  в системе eolwtscom.dll.
+    <value>Для (RDP) сессий должна быть зарегистрирована в системе eolwtscom.dll.
  mRemoteNC загрузится с этим компонентом, но не зарегистрирует его автоматически.
  Чтобы зарегистрировать его вручную: Откройте (Пуск - Выполнить) и введите следующую команду: regsvr32 "C:\Program Files\mRemoteNC\eolwtscom.dll" (где C:\Program Files\mRemoteNC\ это путь к установленному mRemoteNC).
  Если у вас все же не получается зарегистрировать компонент для RDP - обратитесь на форум mRemoteNC http://forum.mRemoteNC.org/</value>
@@ -323,8 +323,7 @@
   </data>
   <data name="strCcVNCFailed" xml:space="preserve">
     <value>VNC требуется VncSharpNG.dll который находится в папке с mRemoteNC.
- Убедитесь, что у вас есть VncSharpNG.dll в папке mRemoteNC (обычно C:\Program Files\mRemoteNC\).
- Если  у вас все же не работает VNC в mRemoteNC обратитесь на форум mRemoteNChttp://forum.mRemoteNC.org/</value>
+ Убедитесь, что у вас есть VncSharpNG.dll в папке mRemoteNC (обычно C:\Program Files\mRemoteNC\).</value>
   </data>
   <data name="strCcVNCOK" xml:space="preserve">
     <value>Все VNC компоненты были найдены и зарегистрированы.

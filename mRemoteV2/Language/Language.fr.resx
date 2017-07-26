@@ -60,45 +60,45 @@
             : and then encoded with base64 encoding.
     -->
   <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string"/>
-              <xsd:attribute name="type" type="xsd:string"/>
-              <xsd:attribute name="mimetype" type="xsd:string"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string"/>
-              <xsd:attribute name="name" type="xsd:string"/>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -147,7 +147,6 @@
   <data name="strAlwaysConnectEvenIfAuthFails" xml:space="preserve">
     <value>Toujours se connecter, même si l'authentification échoue</value>
   </data>
-  
   <data name="strAlwaysShowSysTrayIcon" xml:space="preserve">
     <value>Toujours afficher l'icone dans la zone de notification</value>
   </data>
@@ -166,7 +165,6 @@
   <data name="strAskUpdatesMainInstruction" xml:space="preserve">
     <value>Paramètres de mise à jour automatique</value>
   </data>
-  
   <data name="strAutomaticallyGetSessionInfo" xml:space="preserve">
     <value>Obtenir automatiquement les informations de session</value>
   </data>
@@ -185,7 +183,6 @@
   <data name="strButtonCancel" xml:space="preserve">
     <value>&amp;Annuler</value>
   </data>
-  
   <data name="strButtonClose" xml:space="preserve">
     <value>&amp;Fermer</value>
   </data>
@@ -213,7 +210,6 @@
   <data name="strButtonNew" xml:space="preserve">
     <value>&amp;Nouveau</value>
   </data>
-  
   <data name="strButtonProperties" xml:space="preserve">
     <value>Propriétés</value>
   </data>
@@ -223,8 +219,6 @@
   <data name="strButtonStop" xml:space="preserve">
     <value>&amp;Arreter</value>
   </data>
-  
-  
   <data name="strCannotStartPortScan" xml:space="preserve">
     <value>Impossible de démarrer le scan de port, format d'addresse IP incorrecte!</value>
   </data>
@@ -234,7 +228,6 @@
   <data name="strCategoryConnection" xml:space="preserve">
     <value>Connexion</value>
   </data>
-  
   <data name="strCategoryDisplay" xml:space="preserve">
     <value>Affichage</value>
   </data>
@@ -265,14 +258,12 @@
   <data name="strCcCheckSucceeded" xml:space="preserve">
     <value>Verification réussie!</value>
   </data>
-  
   <data name="strCcEOLOK" xml:space="preserve">
     <value>EOLWTSCOM a été trouvé et semble être enregistrés correctement.</value>
   </data>
   <data name="strCcGeckoOK" xml:space="preserve">
     <value>XULRunner a été trouvé et semble être installé correctement.</value>
   </data>
-  
   <data name="strCcICAOK" xml:space="preserve">
     <value>Tous les composants de l'ICA ont été trouvés et semblent être enregistrés correctement. Citrix ICA Client Version Control {0}</value>
   </data>
@@ -318,14 +309,12 @@
   <data name="strCheckboxPuttyPath" xml:space="preserve">
     <value>Utilisez chemin personnalisé pour PuTTY:</value>
   </data>
-  
   <data name="strCheckboxUpdateUseProxy" xml:space="preserve">
     <value>Utiliser un serveur proxy pour se connecter</value>
   </data>
   <data name="strCheckboxUsername" xml:space="preserve">
     <value>Nom d'utilisateur</value>
   </data>
-  
   <data name="strCheckForUpdate" xml:space="preserve">
     <value>Vérifiez Encore une fois</value>
   </data>
@@ -347,7 +336,6 @@
   <data name="strCollapseAllFolders" xml:space="preserve">
     <value>Réduire tous les dossiers</value>
   </data>
-  
   <data name="strColumnDisplayName" xml:space="preserve">
     <value>Nom Affiché</value>
   </data>
@@ -357,12 +345,9 @@
   <data name="strColumnHostnameIP" xml:space="preserve">
     <value>Nom d'hôte/IP</value>
   </data>
-  
   <data name="strColumnUsername" xml:space="preserve">
     <value>Nom d'utilisateur</value>
   </data>
-  
-  
   <data name="strComponentsCheck" xml:space="preserve">
     <value>Vérifiez les composants</value>
   </data>
@@ -387,9 +372,6 @@
   <data name="strConfigUiLoadFailed" xml:space="preserve">
     <value>Fenêtre de configuration échec du chargement!</value>
   </data>
-  
-  
-  
   <data name="strConfirmDeleteExternalTool" xml:space="preserve">
     <value>Etes-vous sûr de vouloir supprimer l'outil externe, "{0}"?</value>
   </data>
@@ -423,14 +405,12 @@
   <data name="strConnecting" xml:space="preserve">
     <value>Connexion...</value>
   </data>
-  
   <data name="strConnectionEventConnectedDetail" xml:space="preserve">
     <value>Connexion à "{0}"via "{1}"créé par l'utilisateur "{2}"; (Description: "{3}"Champ Utilisateur: "{4}")</value>
   </data>
   <data name="strConnectionEventConnectionFailed" xml:space="preserve">
     <value>Connexion échoué!</value>
   </data>
-  
   <data name="strConnectionOpenFailed" xml:space="preserve">
     <value>L'ouverture de la connexion a échoué!</value>
   </data>
@@ -476,8 +456,6 @@
   <data name="strConnenctionClosedByUserDetail" xml:space="preserve">
     <value>Connexion à {0} {1} via fermée par l'utilisateur {2}. (Description: "{3}"; Champ utilisateur: "{4}")</value>
   </data>
-  
-  
   <data name="strCouldNotCreateNewConnectionsFile" xml:space="preserve">
     <value>Impossible de créer le nouveau fichier de connexions!</value>
   </data>
@@ -490,7 +468,6 @@
   <data name="strDontConnectWhenAuthFails" xml:space="preserve">
     <value>Ne pas se connecter si l'authentification échoue</value>
   </data>
-  
   <data name="strDownloadAndInstall" xml:space="preserve">
     <value>Télécharger et installer</value>
   </data>
@@ -500,13 +477,9 @@
   <data name="strEmptyPasswordContinue" xml:space="preserve">
     <value>Voulez-vous continuer sans mot de passe?</value>
   </data>
-  
-  
   <data name="strEnc128BitLogonOnly" xml:space="preserve">
     <value>128 bits (ouverture de session)</value>
   </data>
-  
-  
   <data name="strEncBasic" xml:space="preserve">
     <value>Basique</value>
   </data>
@@ -519,22 +492,12 @@
   <data name="strEndPort" xml:space="preserve">
     <value>Port de fin</value>
   </data>
-  
-  
-  
-  
   <data name="strErrorCode" xml:space="preserve">
     <value>Code d'erreur {0}.</value>
   </data>
-  
-  
-  
-  
   <data name="strErrors" xml:space="preserve">
     <value>Erreurs</value>
   </data>
-  
-  
   <data name="strExpandAllFolders" xml:space="preserve">
     <value>Développer tous les dossiers</value>
   </data>
@@ -547,11 +510,9 @@
   <data name="strExportmRemoteXML" xml:space="preserve">
     <value>Exporter mRemote / mRemoteNC XML</value>
   </data>
-  
   <data name="strFAMFAMFAMAttribution" xml:space="preserve">
     <value>Comprend les icônes de [FAMFAMFAM]</value>
   </data>
-  
   <data name="strFilterAll" xml:space="preserve">
     <value>Tous les fichiers (*.*)</value>
   </data>
@@ -576,7 +537,6 @@
   <data name="strFormatInheritDescription" xml:space="preserve">
     <value>Description de la propriété héritée: {0}</value>
   </data>
-  
   <data name="strFullscreen" xml:space="preserve">
     <value>Plein Ecran</value>
   </data>
@@ -586,7 +546,6 @@
   <data name="strGetConnectionInfoFromSqlFailed" xml:space="preserve">
     <value>L'obtention des informations de connexion à partir de SQL a échoué</value>
   </data>
-  
   <data name="strGroupboxAutomaticReconnect" xml:space="preserve">
     <value>Reconnexion automatique</value>
   </data>
@@ -599,29 +558,18 @@
   <data name="strGroupboxFiles" xml:space="preserve">
     <value>Fichiers</value>
   </data>
-  
-  
   <data name="strHttpConnectFailed" xml:space="preserve">
     <value>Échec de la connexion HTTP!</value>
   </data>
   <data name="strHttpConnectionFailed" xml:space="preserve">
     <value>Impossible de créer de nouvelles connexions HTTP!</value>
   </data>
-  
-  
-  
-  
-  
   <data name="strIcaConnectionFailed" xml:space="preserve">
     <value>Impossible de créer une nouvelle connexion ICA!</value>
   </data>
   <data name="strIcaControlFailed" xml:space="preserve">
     <value>Le chargement du plugin ICA a échoué!</value>
   </data>
-  
-  
-  
-  
   <data name="strImportAD" xml:space="preserve">
     <value>Importer à partir d'Active Directory</value>
   </data>
@@ -631,34 +579,21 @@
   <data name="strImportmRemoteXML" xml:space="preserve">
     <value>Importer mRemote / mRemoteNC XML</value>
   </data>
-  
   <data name="strImportRDPFiles" xml:space="preserve">
     <value>Import de fichier. RDP (s)</value>
   </data>
   <data name="strInactive" xml:space="preserve">
     <value>Inactif</value>
   </data>
-  
   <data name="strInheritNewConnection" xml:space="preserve">
     <value>mRemoteNC est à jour</value>
   </data>
   <data name="strIntAppConnectionFailed" xml:space="preserve">
     <value>La connexion a échoué!</value>
   </data>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <data name="strLabelAddress" xml:space="preserve">
     <value>Adresse:</value>
   </data>
-  
   <data name="strLabelChangeLog" xml:space="preserve">
     <value>Historique des changements:</value>
   </data>
@@ -677,11 +612,9 @@
   <data name="strLabelHostname" xml:space="preserve">
     <value>Nom d'hôte:</value>
   </data>
-  
   <data name="strLabelPassword" xml:space="preserve">
     <value>Mot de passe:</value>
   </data>
-  
   <data name="strLabelPortableEdition" xml:space="preserve">
     <value>Edition Portable</value>
   </data>
@@ -691,7 +624,6 @@
   <data name="strLabelPuttySessionsConfig" xml:space="preserve">
     <value>Pour configurer les sessions PuTTY cliquez sur ce bouton:</value>
   </data>
-  
   <data name="strLabelReleasedUnderGPL" xml:space="preserve">
     <value>Paru sous la GNU General Public License (GPL)</value>
   </data>
@@ -704,8 +636,6 @@
   <data name="strLabelServerStatus" xml:space="preserve">
     <value>L'état du serveur:</value>
   </data>
-  
-  
   <data name="strLabelUsername" xml:space="preserve">
     <value>Nom d'utilisateur:</value>
   </data>
@@ -727,7 +657,6 @@
   <data name="strLoadFromXmlFailed" xml:space="preserve">
     <value>Charger à partir du XML a échoué!</value>
   </data>
-  
   <data name="strLocalFileDoesNotExist" xml:space="preserve">
     <value>Le fichier local n'existe pas!</value>
   </data>
@@ -743,7 +672,6 @@
   <data name="strMagicLibraryAttribution" xml:space="preserve">
     <value>Utilise la bibliothèque Magic [Crownwood Software]</value>
   </data>
-  
   <data name="strMenuAbout" xml:space="preserve">
     <value>A propos</value>
   </data>
@@ -774,8 +702,6 @@
   <data name="strMenuCopy" xml:space="preserve">
     <value>Copier</value>
   </data>
-  
-  
   <data name="strMenuDelete" xml:space="preserve">
     <value>Supprimer...</value>
   </data>
@@ -842,11 +768,9 @@
   <data name="strMenuNewExternalTool" xml:space="preserve">
     <value>Nouvel outil externe</value>
   </data>
-  
   <data name="strMenuOpenConnectionFile" xml:space="preserve">
     <value>Ouvrir un fichier de connexion...</value>
   </data>
-  
   <data name="strMenuPortScan" xml:space="preserve">
     <value>Scan de port</value>
   </data>
@@ -889,22 +813,18 @@
   <data name="strMenuScreenshotManager" xml:space="preserve">
     <value>Gestionnaire de Capture d'écran</value>
   </data>
-  
-  
   <data name="strMenuSessionsAndScreenshots" xml:space="preserve">
     <value>Sessions et capture d'ecran</value>
   </data>
   <data name="strMenuShowText" xml:space="preserve">
     <value>Afficher le texte</value>
   </data>
-  
   <data name="strMenuSSHFileTransfer" xml:space="preserve">
     <value>Transfert de fichiers SSH</value>
   </data>
   <data name="strMenuStartChat" xml:space="preserve">
     <value>Démarrer Chat (VNC)</value>
   </data>
-  
   <data name="strMenuTools" xml:space="preserve">
     <value>&amp;Outils</value>
   </data>
@@ -929,7 +849,6 @@
   <data name="strMoveUp" xml:space="preserve">
     <value>Déplacer vers le haut</value>
   </data>
-  
   <data name="strNever" xml:space="preserve">
     <value>Jamais</value>
   </data>
@@ -963,12 +882,9 @@
   <data name="strNone" xml:space="preserve">
     <value>Aucun</value>
   </data>
-  
-  
   <data name="strNoUpdateAvailable" xml:space="preserve">
     <value>Aucune mise à jour disponible</value>
   </data>
-  
   <data name="strOpenNewTabRight" xml:space="preserve">
     <value>Ouvrir les nouveaux onglets à droite de l'onglet actuellement sélectionné</value>
   </data>
@@ -978,7 +894,6 @@
   <data name="strPanelName" xml:space="preserve">
     <value>Nom du panneau</value>
   </data>
-  
   <data name="strPleaseFillAllFields" xml:space="preserve">
     <value>Merci de remplir tous les champs</value>
   </data>
@@ -988,7 +903,6 @@
   <data name="strPropertiesWillOnlyBeSavedMRemoteXML" xml:space="preserve">
     <value>(Ces propriétés ne seront enregistrées que si vous sélectionnez mRemote / XML comme format de fichier de sortie!)</value>
   </data>
-  
   <data name="strPropertyDescriptionAll" xml:space="preserve">
     <value>Sélectionner toutes les options d'héritage.</value>
   </data>
@@ -1010,16 +924,12 @@
   <data name="strPropertyDescriptionDescription" xml:space="preserve">
     <value>Mettez vos notes ou une description de l'hôte ici.</value>
   </data>
-  
   <data name="strPropertyDescriptionDisplayWallpaper" xml:space="preserve">
     <value>Sélectionnez «oui» si vous voulez afficher le fond d'ecran de l'hôte distant.</value>
   </data>
   <data name="strPropertyDescriptionDomain" xml:space="preserve">
     <value>Entrez votre nom de domaine.</value>
   </data>
-  
-  
-  
   <data name="strPropertyDescriptionEncryptionStrength" xml:space="preserve">
     <value>Sélectionnez le niveau de chiffrement de l'hôte distant.</value>
   </data>
@@ -1056,13 +966,9 @@
   <data name="strPropertyDescriptionPuttySession" xml:space="preserve">
     <value>Sélectionnez une session PuTTY à utiliser lors de la connexion.</value>
   </data>
-  
   <data name="strPropertyDescriptionRDGatewayHostname" xml:space="preserve">
     <value>Indiquer le nom d'hôte du serveur Remote Desktop Gateway.</value>
   </data>
-  
-  
-  
   <data name="strPropertyDescriptionRedirectDrives" xml:space="preserve">
     <value>Choisissez si les lecteurs de disque locaux doivent être redirigé sur l'hôte distant</value>
   </data>
@@ -1075,20 +981,12 @@
   <data name="strPropertyDescriptionRedirectPrinters" xml:space="preserve">
     <value>Choisissez si les imprimantes locales doivent être redirigé sur l'hôte distant.</value>
   </data>
-  
-  
-  
-  
-  
   <data name="strPropertyDescriptionUseConsoleSession" xml:space="preserve">
     <value>Connexion à la console de l'hôte distant.</value>
   </data>
-  
-  
   <data name="strPropertyDescriptionUsername" xml:space="preserve">
     <value>Entrez votre nom d'utilisateur.</value>
   </data>
-  
   <data name="strPropertyDescriptionVNCProxyAddress" xml:space="preserve">
     <value>Entrez l'adresse du proxy à utiliser.</value>
   </data>
@@ -1098,7 +996,6 @@
   <data name="strPropertyDescriptionVNCProxyPort" xml:space="preserve">
     <value>Entrez le port d'ecoute du serveur proxy</value>
   </data>
-  
   <data name="strPropertyDescriptionVNCProxyUsername" xml:space="preserve">
     <value>Entrez votre nom d'utilisateur pour authentifier sur le proxy.</value>
   </data>
@@ -1114,12 +1011,9 @@
   <data name="strPropertyNameAuthenticationMode" xml:space="preserve">
     <value>Mode d'authentification</value>
   </data>
-  
   <data name="strPropertyNameColors" xml:space="preserve">
     <value>Couleurs</value>
   </data>
-  
-  
   <data name="strPropertyNameDisplayThemes" xml:space="preserve">
     <value>Afficher le Thème</value>
   </data>
@@ -1129,8 +1023,6 @@
   <data name="strPropertyNameDomain" xml:space="preserve">
     <value>Domaine</value>
   </data>
-  
-  
   <data name="strPropertyNameEncoding" xml:space="preserve">
     <value>Encodage</value>
   </data>
@@ -1140,8 +1032,6 @@
   <data name="strPropertyNameExternalTool" xml:space="preserve">
     <value>Outil externe</value>
   </data>
-  
-  
   <data name="strPropertyNameIcon" xml:space="preserve">
     <value>Icône</value>
   </data>
@@ -1151,26 +1041,21 @@
   <data name="strPropertyNameName" xml:space="preserve">
     <value>Nom</value>
   </data>
-  
   <data name="strPropertyNamePassword" xml:space="preserve">
     <value>Mot de passe</value>
   </data>
-  
   <data name="strPropertyNameProtocol" xml:space="preserve">
     <value>Protocole</value>
   </data>
   <data name="strPropertyNamePuttySession" xml:space="preserve">
     <value>Session PuTTY</value>
   </data>
-  
-  
   <data name="strPropertyNameRDGatewayPassword" xml:space="preserve">
     <value>Mot de passe pour la Passerelle RDP</value>
   </data>
   <data name="strPropertyNameRDGatewayUsageMethod" xml:space="preserve">
     <value>Utiliser Gateway</value>
   </data>
-  
   <data name="strPropertyNameRDGatewayUsername" xml:space="preserve">
     <value>Nom d'utilisateur pour la Passerelle RDP</value>
   </data>
@@ -1180,7 +1065,6 @@
   <data name="strPropertyNameRedirectKeys" xml:space="preserve">
     <value>Combinaisons de touches</value>
   </data>
-  
   <data name="strPropertyNameRedirectPrinters" xml:space="preserve">
     <value>Imprimantes</value>
   </data>
@@ -1196,11 +1080,9 @@
   <data name="strPropertyNameResolution" xml:space="preserve">
     <value>Résolution</value>
   </data>
-  
   <data name="strPropertyNameUseConsoleSession" xml:space="preserve">
     <value>Utilisez la session console</value>
   </data>
-  
   <data name="strPropertyNameUser1" xml:space="preserve">
     <value>Champ utilisateur</value>
   </data>
@@ -1225,9 +1107,6 @@
   <data name="strPropertyNameVNCProxyUsername" xml:space="preserve">
     <value>Nom d'utilisateur du Proxy</value>
   </data>
-  
-  
-  
   <data name="strProxyTestFailed" xml:space="preserve">
     <value>Test du proxy a échoué!</value>
   </data>
@@ -1237,37 +1116,24 @@
   <data name="strPuttyConnectionFailed" xml:space="preserve">
     <value>La connexion a échoué!</value>
   </data>
-  
   <data name="strPuttyFocusFailed" xml:space="preserve">
     <value>Impossible de définir le focus!</value>
   </data>
-  
-  
-  
-  
-  
   <data name="strPuttySettings" xml:space="preserve">
     <value>Paramètres PuTTY</value>
   </data>
-  
   <data name="strPuttyStartFailed" xml:space="preserve">
     <value>Le lancement de Putty a échoué!</value>
   </data>
-  
   <data name="strPuttyTitle" xml:space="preserve">
     <value>Titre PuTTY: {0}</value>
   </data>
-  
   <data name="strQuickConnect" xml:space="preserve">
     <value>Connexion rapide</value>
   </data>
-  
   <data name="strQuickConnectFailed" xml:space="preserve">
     <value>La connexion rapide à échoué</value>
   </data>
-  
-  
-  
   <data name="strRDP16777216Colors" xml:space="preserve">
     <value>16777216 couleurs (24 bits)</value>
   </data>
@@ -1283,9 +1149,6 @@
   <data name="strRDP65536Colors" xml:space="preserve">
     <value>65536 couleurs (16 bits)</value>
   </data>
-  
-  
-  
   <data name="strRdpCloseConnectionFailed" xml:space="preserve">
     <value>Fermeture de la connexion RDP échoué!</value>
   </data>
@@ -1301,7 +1164,6 @@
   <data name="strRDPDisableCursorShadow" xml:space="preserve">
     <value>Désactiver l'Ombre du pointeur</value>
   </data>
-  
   <data name="strRDPDisableMenuAnimations" xml:space="preserve">
     <value>Désactiver les animations du menu</value>
   </data>
@@ -1314,7 +1176,6 @@
   <data name="strRdpDisconnected" xml:space="preserve">
     <value>RDP déconnecté!</value>
   </data>
-  
   <data name="strRdpErrorCode1" xml:space="preserve">
     <value>Code d'erreur interne 1.</value>
   </data>
@@ -1330,64 +1191,36 @@
   <data name="strRdpErrorConnection" xml:space="preserve">
     <value>Une erreur irrécupérable s'est produite lors de la connexion client.</value>
   </data>
-  
   <data name="strRdpErrorGetUnknown" xml:space="preserve">
     <value>Une erreur inconnue s'est produite fatale RDP. Le code d'erreur {0}.</value>
   </data>
-  
   <data name="strRdpErrorUnknown" xml:space="preserve">
     <value>Une erreur inconnue s'est produite.</value>
   </data>
   <data name="strRdpErrorWindowCreation" xml:space="preserve">
     <value>Une erreur de création de fenêtre a été commise.</value>
   </data>
-  
   <data name="strRdpFileCouldNotBeImported" xml:space="preserve">
     <value>Impossible d'importer le fichier rdp!</value>
   </data>
   <data name="strRDPFitToPanel" xml:space="preserve">
     <value>Ajuster au panneau</value>
   </data>
-  
-  
-  
-  
   <data name="strRdpOpenConnectionFailed" xml:space="preserve">
     <value>Ouverture de la connexion RDP échoué!</value>
   </data>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <data name="strRDPSoundDoNotPlay" xml:space="preserve">
     <value>Ne pas jouer</value>
   </data>
-  
-  
-  
-  
   <data name="strRefresh" xml:space="preserve">
     <value>Actualiser</value>
   </data>
-  
   <data name="strRemoveAll" xml:space="preserve">
     <value>Supprimer tout</value>
   </data>
   <data name="strRename" xml:space="preserve">
     <value>Renommer</value>
   </data>
-  
   <data name="strSave" xml:space="preserve">
     <value>Enregistrer</value>
   </data>
@@ -1400,7 +1233,6 @@
   <data name="strSaveConsOnExit" xml:space="preserve">
     <value>Enregistrer les connexions à la sortie</value>
   </data>
-  
   <data name="strScreen" xml:space="preserve">
     <value>Écran</value>
   </data>
@@ -1413,29 +1245,18 @@
   <data name="strSendTo" xml:space="preserve">
     <value>Envoyer à ...</value>
   </data>
-  
   <data name="strSessionKillFailed" xml:space="preserve">
     <value>Fermeture des sessions a échoué.</value>
   </data>
-  
-  
-  
   <data name="strShowDescriptionTooltips" xml:space="preserve">
     <value>Afficher la description des info-bulles dans l'arborescence</value>
   </data>
-  
   <data name="strShowLogonInfoOnTabs" xml:space="preserve">
     <value>Afficher les informations de connexion dans le nom des onglets</value>
   </data>
   <data name="strShowProtocolOnTabs" xml:space="preserve">
     <value>Afficher le protocoles dans le nom de l'onglet</value>
   </data>
-  
-  
-  
-  
-  
-  
   <data name="strSort" xml:space="preserve">
     <value>Trier</value>
   </data>
@@ -1445,12 +1266,6 @@
   <data name="strSortDesc" xml:space="preserve">
     <value>Décroissant (ZA)</value>
   </data>
-  
-  
-  
-  
-  
-  
   <data name="strSSHTransferFailed" xml:space="preserve">
     <value>Transfert</value>
   </data>
@@ -1466,7 +1281,6 @@
   <data name="strStatus" xml:space="preserve">
     <value>Statut</value>
   </data>
-  
   <data name="strTabAdvanced" xml:space="preserve">
     <value>Avancée</value>
   </data>
@@ -1476,13 +1290,9 @@
   <data name="strTabsAndPanels" xml:space="preserve">
     <value>Onglets &amp;&amp; Panneaux</value>
   </data>
-  
-  
-  
   <data name="strTitleError" xml:space="preserve">
     <value>Erreur ({0})</value>
   </data>
-  
   <data name="strTitlePassword" xml:space="preserve">
     <value>Mot de passe</value>
   </data>
@@ -1495,10 +1305,6 @@
   <data name="strTransfer" xml:space="preserve">
     <value>Transfert</value>
   </data>
-  
-  
-  
-  
   <data name="strUncheckProperties" xml:space="preserve">
     <value>Décochez les propriétés que vous souhaitez ne pas être enregistrer!</value>
   </data>
@@ -1508,7 +1314,6 @@
   <data name="strUpdateCheck" xml:space="preserve">
     <value>mRemoteNC peut se connecter périodiquement sur le site mRemoteNC pour vérifier les mises à jour.</value>
   </data>
-  
   <data name="strUpdateCheckFailed" xml:space="preserve">
     <value>La vérification des mises à jour a échoué!</value>
   </data>
@@ -1557,8 +1362,6 @@
   <data name="strUseSQLServer" xml:space="preserve">
     <value>Utilisez SQL Server pour charger &amp;&amp; enregistrer les connexions</value>
   </data>
-  
-  
   <data name="strVncConnectionDisconnectFailed" xml:space="preserve">
     <value>VNC déconnection échoué!</value>
   </data>
@@ -1571,23 +1374,18 @@
   <data name="strVncSendSpecialKeysFailed" xml:space="preserve">
     <value>VNC SendSpecialKeys a échoué!</value>
   </data>
-  
-  
   <data name="strVncStartChatFailed" xml:space="preserve">
     <value>Lancement VNC Chat échoué!</value>
   </data>
   <data name="strVncToggleSmartSizeFailed" xml:space="preserve">
     <value>Toggle VNC SmartSize échoué!</value>
   </data>
-  
   <data name="strWarnIfAuthFails" xml:space="preserve">
     <value>M'avertir si l'authentification échoue</value>
   </data>
   <data name="strWarnings" xml:space="preserve">
     <value>Avertissements</value>
   </data>
-  
-  
   <data name="strWriteLogFile" xml:space="preserve">
     <value>Ecrire dans un fichier journal (mRemoteNC.log)</value>
   </data>
@@ -1597,99 +1395,56 @@
   <data name="strYes" xml:space="preserve">
     <value>Oui</value>
   </data>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <data name="SSHTransfer_Upload_Transfer" xml:space="preserve">
     <value>Transfert</value>
   </data>
-  
-  
-  
   <data name="QuickHostScanner_ApplyLanguage_Protocol" xml:space="preserve">
     <value>Protocole</value>
   </data>
   <data name="QuickHostScanner_ApplyLanguage_Status" xml:space="preserve">
     <value>Statut</value>
   </data>
-  
-  
-  
-  
-  
   <data name="ConnectionStatusForm_ApplyLanguage_Refresh" xml:space="preserve">
     <value>Actualiser</value>
   </data>
-  
   <data name="ConnectionStatusForm_ApplyLanguage_Connection" xml:space="preserve">
     <value>Connexion</value>
   </data>
-  
   <data name="ConnectionStatusForm_ApplyLanguage_Status" xml:space="preserve">
     <value>Statut</value>
   </data>
-  
-  
-  
-  
-  
-  
-  
-  
+  <data name="strAlwaysShowPanelSelection" xml:space="preserve">
+    <value>Toujours afficher la boîte de dialogue de sélection du panneau lors de l'ouverture des connexions</value>
+  </data>
+  <data name="strAspect" xml:space="preserve">
+    <value>Vue</value>
+  </data>
+  <data name="strButtonChange" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="strButtonOK" xml:space="preserve">
+    <value>&amp;ОК</value>
+  </data>
+  <data name="strButtonTestProxy" xml:space="preserve">
+    <value>Test Proxy</value>
+  </data>
+  <data name="strCannotImportNormalSessionFile" xml:space="preserve">
+    <value>Vous ne pouvez pas importer un fichier de connexion normale.
+S'il vous plaît utiliser Fichier - Connexions de charge pour les fichiers de connexion normale!</value>
+  </data>
+  <data name="strCategoryCredentials" xml:space="preserve">
+    <value>Lettres de créance</value>
+  </data>
+  <data name="strCcEOLFailed" xml:space="preserve">
+    <value>Le (RDP) fonction Sessions exige que vous avez une copie enregistrée de eolwtscom.dll sur votre système.
+navires mRemoteNC avec ce composant, mais n'enregistreront automatiquement à moins que vous exécutez le package d'installation.
+Pour ce faire enregistrer manuellement ce faire: Ouvrez la boîte de dialogue d'exécution (Démarrer - Exécuter) et entrez les informations suivantes: regsvr32 "c: \ Program Files \ mRemoteNC \ eolwtscom.dll" (Où c: \ Program Files \ mRemoteNC \ est le chemin à votre installation mRemoteNC).
+Si vous n'êtes toujours pas en mesure de passer ce contrôle ou utiliser les sessions (RDP) disposent en mRemoteNC s'il vous plaît consulter le Forum mRemoteNC à http://forum.mRemoteNC.org/</value>
+  </data>
+  <data name="strCcICAFailed" xml:space="preserve">
+    <value>ICA exige que le plug-in en ligne XenDesktop est installé et que la bibliothèque wfica.ocx est enregistrée. Vous pouvez télécharger le client ici: http://www.citrix.com/download/
+Si vous avez le plug-in en ligne XenDesktop installé et le contrôle ne parvient toujours, essayez d'enregistrer wfica.ocx manuellement.
+Pour ce faire, ouvrez la boîte de dialogue d'exécution (Démarrer - Exécuter) et entrez les informations suivantes: regsvr32 "c: \ Program Files \ Citrix \ ICA Client \ wfica.ocx" (Où c: \ Program Files \ Citrix \ ICA Client \ est le chemin de votre installation de plug-in en ligne XenDesktop).
+Si vous n'êtes toujours pas en mesure de transmettre cette vérification ou utiliser ICA dans mRemoteNC s'il vous plaît consulter le Forum mRemoteNC à http://forum.mRemoteNC.org/ "</value>
+  </data>
 </root>

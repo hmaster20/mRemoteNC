@@ -87,9 +87,9 @@ namespace mRemoteNC.Tools
             try
             {
                 string pPath = Settings.Default.UseCustomPuttyPath == false
-                                   ? (new Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase()).Info.
-                                         DirectoryPath + "\\PuTTYNG.exe"
-                                   : Settings.Default.CustomPuttyPath;
+                               ? (new Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase()).Info.
+                                         DirectoryPath + "\\putty.exe"
+                               : Settings.Default.CustomPuttyPath;
 
                 return File.Exists(pPath);
             }
@@ -169,6 +169,7 @@ namespace mRemoteNC.Tools
             }
             catch (Exception)
             {
+                MessageBox.Show("Необходимо выполнить регистрацию библиотеки с правами администратора, выполнив команду: regsvr32 eolwtscom.dll");
                 return false;
             }
         }
@@ -218,7 +219,7 @@ namespace mRemoteNC.Tools
             try
             {
                 var temFile = Path.GetTempFileName() + ".zip";
-                Misc.DownloadFileVisual(xulLatestPath+xulLatestName, temFile);
+                Misc.DownloadFileVisual(xulLatestPath + xulLatestName, temFile);
                 Misc.UnZipFileVisual(temFile, ".\\");
                 File.Delete(temFile);
             }
@@ -435,7 +436,7 @@ namespace mRemoteNC.Tools
                 MessageBox.Show(ex.Message);
             }
         }
-        
+
         internal static void FixRAdminProblem()
         {
             try

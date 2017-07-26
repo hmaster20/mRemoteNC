@@ -743,6 +743,7 @@
     <Content Include="Help\Update.htm">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Utils\putty.exe" />
     <None Include="Resources\UpdateBatFile.txt" />
     <None Include="Resources\mRemoteNC.ico" />
     <None Include="Resources\SmallIco.bmp" />
@@ -1092,6 +1093,12 @@
         echo Visual Studio 2012...
     )  
 )  
-editbin.exe /NXCOMPAT:NO "$(TargetPath)"</PostBuildEvent>
+editbin.exe /NXCOMPAT:NO "$(TargetPath)"
+copy $(ProjectDir)Utils\putty.exe "$(TargetDir)"
+copy $(ProjectDir)References\eolwtscom.dll "$(TargetDir)"</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
   </PropertyGroup>
 </Project>
